@@ -138,16 +138,32 @@ body {
   height: 20vw;
 }
 
+/* CALENDÁRIO */
+.calendario {
+    position: relative;
+    text-align: center;
+    padding: 1vh;
+    width: 26vw;
+    left: 2vw;
+    top: 3vw;
+}
+
+#data {
+    font-size: 1.5rem;
+    color: #5D3136ff;
+}
+
 /* RELOGIO */
 .relogio {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items:flex-end;
   justify-content: space-around;
-  height: 7vw;
+  padding: 1vw;
+  height: 9vw;
   width: 26vw;
   left: 2vw;
-  top: 4vw;
+  top: 0vw;
   background: transparent;
   border-radius: 0.5rem;
   box-shadow: 0px 1px 10px rgba(93, 49, 54, 0.694);
@@ -165,6 +181,10 @@ body {
   box-shadow: 2px 2px 4px rgba(93, 49, 54, 0.694);
   letter-spacing: 3px;
   border-radius: 0.5rem;
+}
+
+.relogio div:hover {
+  
 }
 
 .relogio span {
